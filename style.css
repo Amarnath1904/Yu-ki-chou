@@ -1,0 +1,239 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: rgb(0 0 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+h1{
+    color: white;
+    font-size: 80px;
+}
+p{
+    color: white;
+    font-size: 15px;
+}
+.hero_text{
+
+    margin-left: 10%;
+}
+
+.hero_text p{
+    width: 51%;
+}
+
+logo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+logo img{
+    box-shadow: none;
+}
+
+nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+nav{
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 2%;
+
+    background: none;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+logo-img{
+    width: 50px;
+    height: 50px;
+
+    background-image: url("Yu-kai_Chou.jpg");
+}
+#logo-img{
+    box-shadow: none;
+}
+logo-text{
+    color: white;
+    font-size: large;
+}
+
+nav-link a{
+    color: white;
+    text-decoration: none;
+}
+.important{
+
+    color: rgb(139, 139, 255);
+
+}
+
+button{
+
+    width: 10%;
+    height: 5vh;
+
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+
+    box-shadow: inset 2px 2px 2px -1px rgba(0, 0, 0, 0.144),
+                inset -2px -2px 2px -1px rgba(255, 255, 255, 0.7);
+    
+
+
+}
+
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    justify-content: space-evenly;
+
+    background-color: rgb(247, 247, 247);
+
+    
+}
+.hero_text{
+    height: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#Hero_btn button{
+    width: 15%;
+}
+
+
+
+#a_div{
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#a_div h1{
+    color: #FFF;
+    font-size: 57px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+#a_div p{
+    display: flex;
+    width: 412px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-size: 16px;
+    font-family: Roboto;
+}
+#b_div{
+
+    width: 50%;
+    height: 60vh;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+}
+#Hero2{
+    background-color: #323232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Quart{
+
+    color: #FFF;
+    border-left: 1px solid white;
+    padding: 4%;
+}
+
+.dialog_box{
+
+
+    width: 30%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    padding: 2%;
+    border-radius: 30px;
+
+    box-shadow: 10px 10px 10px -1px rgba(0, 0, 0, 0.144),
+                -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+
+}
+ico-box{
+    width: 100%;
+
+
+    margin-bottom: 6%;
+}
+
+
+.ico-box{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+
+    box-shadow: 5px 5px 5px -1px rgba(0, 0, 0, 0.144),
+    -5px -5px 5px -1px rgba(255, 255, 255, 0.7);
+}
+#Landing-Page{
+
+    background-image: url("main-img.svg");
+    background-position: center;
+    background-size: cover;
+
+    justify-content: start;
+
+
+}
+
+#alpha{
+
+    background-image: url("Section 3.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
